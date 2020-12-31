@@ -9,9 +9,9 @@
                 </button>
                 <?php 
                     if($_SESSION['user_role'] === "admin") {
-                        echo '<a class="navbar-brand" href="http://localhost/forum/admin/index.php">Lapor Resah</a>';
+                        echo '<a class="navbar-brand" href="http://localhost/laporResah-main/admin/index.php">Lapor Resah</a>';
                     } else {
-                        echo '<a class="navbar-brand" href="http://localhost/forum/index.php">Lapor Resah</a>';
+                        echo '<a class="navbar-brand" href="http://localhost/laporResah-main/index.php">Lapor Resah</a>';
                     }
                 ?>
             </div>
@@ -43,19 +43,19 @@
                                 // Setting absolute path 
                                 $path = "";
                                 if($_SESSION['user_role'] === "admin") {
-                                    $path = "http://localhost/forum/admin/index.php";
+                                    $path = "http://localhost/laporResah-main/admin/index.php";
                                 } else {
-                                    $path = "http://localhost/forum/index.php";
+                                    $path = "http://localhost/laporResah-main/index.php";
                                 }
                             ?>
-                            <a href="<?php echo $path; ?>"><i class="fa fa-home fa-fw"></i> Home</a>
+                            <a href="http://localhost/laporResah-main/index.php"><i class="fa fa-home fa-fw"></i> Home</a>
                         </li>
         
                         <li class="nav-link-margin">
-                            <a href="http://localhost/forum/posts/view-all-posts.php"><i class="fa fa-window-restore"></i> Lihat Resah</a>
+                            <a href="http://localhost/laporResah-main/posts/view-all-posts.php"><i class="fa fa-window-restore"></i> Lihat Resah</a>
                         </li>
                         <li class="nav-link-margin">
-                            <a href="http://localhost/forum/posts/add-post.php"><span class="fa fa-question"></span> Lapor Resah</a>
+                            <a href="http://localhost/laporResah-main/posts/add-post.php"><span class="fa fa-question"></span> Lapor Resah</a>
                         </li>
                     </ul>
                 </div>
