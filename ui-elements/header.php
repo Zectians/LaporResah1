@@ -5,7 +5,7 @@
     }
 
     if(!isset($_SESSION['user_id'])) { // if a user is not logged in
-        header("Location: http://localhost/forum/access-denied.html"); // Added Absolute Path
+        header("Location: http://localhost/laporResah-main/register.php"); // Added Absolute Path
     }
 ?>
 
