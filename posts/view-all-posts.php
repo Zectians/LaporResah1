@@ -22,7 +22,7 @@
                     <div class="col-lg-12">
                         <br>
                         <h3 class="page-header show-inline-mine">All Posts</h3>
-                        <a href="http://localhost/forum/posts/add-post.php" class="btn-mine btn-bootstrap4-primary-mine ask-quest-btn-alignment-mine"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Ask Question</a>
+                        <a href="http://localhost/laporResah-main/posts/add-post.php" class="btn-mine btn-bootstrap4-primary-mine ask-quest-btn-alignment-mine"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Ask Question</a>
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
