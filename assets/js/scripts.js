@@ -126,7 +126,8 @@ function logoutButtonClicked(event) {
         1) files inside root directory, 
         2) files one level down the root directory */
     // var location = window.location["pathname"];
-    // var regex = new RegExp("\/forum\/[a-zA-Z0-9\-\_]*\.php"); // Add more to this later
+    // var regex = new RegExp("\/
+	\/[a-zA-Z0-9\-\_]*\.php"); // Add more to this later
 
     // if(regex.test(location)) { 
     //     /* Logout button was clicked from some page which is located in the root directory 
@@ -139,7 +140,7 @@ function logoutButtonClicked(event) {
     // }
 
     // A more simpler and full-proof(dynamically working from all directories) approach is to set absolute path.
-    myRequest.open("POST", "http://localhost/forum/manage-ajax.php", true);
+    myRequest.open("POST", "http://localhost/laporResah-main/manage-ajax.php", true);
     myRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     myRequest.send("manage=logout");
 }
