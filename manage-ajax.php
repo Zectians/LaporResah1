@@ -40,7 +40,7 @@
 			session_unset();
 			session_destroy();
 			// echo "forum/login.php"; // This was a pretty bad approach
-			echo "http://localhost/forum/login.php"; // Setting absolute path (Better way than before)
+			echo "http://localhost/laporResah-main/login.php"; // Setting absolute path (Better way than before)
 		} else if($_POST['manage'] === "creating_user") {
 			/* Code to create new user */
 			$first_name = $_POST['firstname'];
